@@ -23,9 +23,7 @@ On the separate Walk3 video, the monitor matched all three annotated zone entrie
 
 | Material | Contents |
 | --- | --- |
-| [Final report](Final%20Report.docx) | Editable report with the group cover page, methods, results, and limitations |
 | [Report PDF](Final%20Report.pdf) | PDF edition of the study |
-| [Presentation](Presentation.pptx) | Project slides |
 | [Project](Project/) | Application code, model weights, dataset splits, videos, saved runs, and benchmark results |
 | [Verification](Verification/) | Recorded unit test results |
 | [References](References.bib) | Bibliography |
