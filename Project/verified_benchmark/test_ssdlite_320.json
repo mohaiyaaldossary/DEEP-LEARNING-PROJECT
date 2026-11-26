@@ -1,0 +1,19 @@
+{
+  "map50_95": 0.3100180127521415,
+  "map50": 0.5193670904024026,
+  "ground_truth": 763,
+  "model": "ssdlite_320",
+  "split": "test",
+  "images": 240,
+  "mean_inference_seconds": 0.07903659325015096,
+  "image_size": 320,
+  "chosen": {
+    "confidence": 0.24,
+    "precision": 0.7848970251716247,
+    "recall": 0.44954128440366975,
+    "f1": 0.5716666666666668,
+    "tp": 343,
+    "fp": 94,
+    "fn": 420
+  }
+}

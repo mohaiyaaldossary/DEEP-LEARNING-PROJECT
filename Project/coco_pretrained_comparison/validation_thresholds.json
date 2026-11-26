@@ -1,0 +1,38 @@
+{
+  "rule": "Per-model maximum F1 on the 240 validation images, IoU 0.50. Ties prefer higher recall and then higher confidence.",
+  "models": {
+    "previous_fine_tuned": {
+      "confidence": 0.09,
+      "precision": 0.35095137420718814,
+      "recall": 0.20493827160493827,
+      "f2": 0.22353891731753298,
+      "true_positives": 166,
+      "false_positives": 307,
+      "false_negatives": 644,
+      "f1": 0.25876851130163675,
+      "weights_sha256": "4a9e1877fd1ce0f3e73c622e8a6f816813ac4c9ae666a783946b49c518ded636"
+    },
+    "original": {
+      "confidence": 0.2,
+      "precision": 0.7889733840304183,
+      "recall": 0.5123456790123457,
+      "f2": 0.5509824747742964,
+      "true_positives": 415,
+      "false_positives": 111,
+      "false_negatives": 395,
+      "f1": 0.6212574850299402,
+      "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    },
+    "new_fine_tuned": {
+      "confidence": 0.29,
+      "precision": 0.80859375,
+      "recall": 0.5111111111111111,
+      "f2": 0.5517057569296375,
+      "true_positives": 414,
+      "false_positives": 98,
+      "false_negatives": 396,
+      "f1": 0.6263237518910741,
+      "weights_sha256": "408e2fa3be18e261bdcee291f4877e6266ef6099fb4e49d71bdc6d90711953be"
+    }
+  }
+}

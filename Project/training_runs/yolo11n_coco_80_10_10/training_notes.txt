@@ -1,0 +1,5 @@
+YOLO11n person detector, initialized from the MOT15 model in training_runs/yolo11n_scratch_320/weights/best.pt.
+Stage 1 completed 2 epochs on 1,600 COCO train2017 images and used the same 240 validation images as stage 2.
+Stage 2 started from the saved stage 1 weights with a new optimizer and ran for 6 epochs on 1,920 images. The stage 1 train images are a subset of the stage 2 train images.
+Dataset: DL Project/COCO2017_person_80_10_10. The 240 project test images and all 5,000 official COCO val2017 images were excluded from training and checkpoint selection.
+Stage 2 best.pt was selected using the validation split.

@@ -1,0 +1,54 @@
+ARTI 502 — Person Detection and Tracking for Restricted Area Monitoring
+Group 2 | Mac delivery | 26 November 2026
+
+Open Final Report.pdf to read the study; edit Final Report.docx in Word.
+Open Presentation.pptx for the talk and Demo.mp4 for the recorded monitor.
+The Arabic summary explains the selected model and scores.
+
+RUN A VIDEO ON A MAC
+Unzip the complete folder before running it. The demo video plays without Python.
+With Python 3.13 installed, open Terminal in the Project directory:
+  zsh "Run Demo on Mac.command"
+On first use the launcher creates a local .venv and installs the locked packages.
+Package installation requires an internet connection. The selected model weights and video are included.
+To run without opening a window:
+  .venv/bin/python run_project.py CAVIAR_Walk2_Reentry.mp4 --headless --save-video
+Use --redraw in graphical mode to define a polygon. Use Space to pause and Q to stop.
+
+REPRODUCE RESULTS
+Use the commands below from Project, with the virtual environment activated:
+  source .venv/bin/activate
+  python -m unittest discover -s tests -v
+  python audit_dataset.py
+  python benchmark_detectors.py --suite base --out my_base
+  python benchmark_detectors.py --suite capacity --out my_capacity
+  python benchmark_high_resolution.py --out my_high_resolution
+  python benchmark_large.py --out my_large
+  python benchmark_yolo26.py --out my_yolo26
+New output directories force fresh inference. The ZIP includes SSDLite's public Torchvision checkpoint. All YOLO weights used in the comparison,
+the original image split, both videos and reference XML files are included.
+The supplied evaluation/release_comparison.csv has all ten validation/test results.
+release_checks.py reads the five shipped benchmark directories, selects on validation,
+runs a short serial CPU timing pass and replays both clips. The video evaluator writes
+evaluation.json in each run directory. plot_release.py redraws the validation plot. feature_study.py repeats the grouped feature selection experiment.
+The source repository listed in the report contains the baseline. The ZIP contains
+the local version used for these experiments, including the new YOLO26 comparison.
+
+Study scope: COCO train2017 project subset; 1,920 train, 240 validation, 240 test.
+Pretrained models can have seen the upstream training images. Walk2 and Walk3 use
+one camera. Official all-class COCO benchmarks and person-only project scores
+use different protocols. The report gives precision, recall, F1 and AP separately.
+
+Attribution: COCO contributors; EC Funded CAVIAR project / IST 2001 37540.
+CAVIAR videos and derivatives retain CC BY-SA attribution. See the source notes
+and upstream terms for external redistribution. YOLO checkpoints are from Ultralytics.
+
+RUN A VIDEO ON WINDOWS
+Double-click Run Demo on Windows.bat in the Group2 folder. The launcher uses
+Python 3.13 and installs the demo and evaluation dependencies into Project\.venv on first use.
+If setup needs to download packages, an internet connection is required.
+Use Space to pause and Q to stop. Output is saved under Project\demonstration.
+For a run without a window, open Command Prompt in Group2 and enter:
+  "Run Demo on Windows.bat" --headless
+After setup, run the tests from the Project directory in PowerShell with
+  .\.venv\Scripts\python.exe -m unittest discover -s tests -v

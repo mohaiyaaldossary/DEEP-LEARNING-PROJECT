@@ -1,0 +1,16 @@
+{
+  "candidates": [
+    [
+      "yolo26m_640",
+      "yolo26m.pt",
+      640
+    ]
+  ],
+  "selection": "Maximum validation F1 over confidence 0.01 to 0.90; ties by mAP then name. Test never selects.",
+  "labels": "Project YOLO labels converted to COCO; crowd metadata unavailable; not official COCO metrics.",
+  "device": "cpu",
+  "threads": 4,
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "torch": "2.15.0",
+  "manifest_sha256": "18f3d3a1d022c79964bd44bb7d82667211a7f39d1bf46c2c420fafd54518cd63"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/Walk3/Walk3.mpg",
+  "annotations": "wk3gt.xml",
+  "frames": 1380,
+  "fps": 25.0,
+  "rotation": "90 clockwise",
+  "zone": "Unchanged Walk2 floor coordinates",
+  "model": "yolo11m.pt",
+  "confidence": 0.3,
+  "imgsz": 640,
+  "exit_confirm": 15,
+  "event_tolerance_seconds": 0.5,
+  "selection": "Frozen on COCO project validation before Walk3 inference; no Walk3 tuning"
+}

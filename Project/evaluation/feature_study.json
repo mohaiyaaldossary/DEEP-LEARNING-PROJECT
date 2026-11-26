@@ -1,0 +1,56 @@
+{
+  "target": "Whether a supplied candidate matched a non-ignored person under original COCO score ordering at IoU 0.50. Candidate classification F1 excludes undetected ground truths.",
+  "folds": "5 validation folds grouped by image, seed 42. RFE removes smallest absolute standardized logistic coefficient inside each training fold. Mean NLL with L2 coefficient 0.0005.",
+  "sizes": [
+    {
+      "size": 4,
+      "validation": {
+        "confidence": 0.32,
+        "tp": 605,
+        "fp": 81,
+        "fn": 164,
+        "f1": 0.8316151202749141
+      }
+    },
+    {
+      "size": 2,
+      "validation": {
+        "confidence": 0.27,
+        "tp": 612,
+        "fp": 94,
+        "fn": 157,
+        "f1": 0.8298305084745763
+      }
+    },
+    {
+      "size": 1,
+      "validation": {
+        "confidence": 0.29,
+        "tp": 607,
+        "fp": 88,
+        "fn": 162,
+        "f1": 0.8292349726775956
+      }
+    }
+  ],
+  "chosen_features": [
+    "confidence",
+    "relative area",
+    "log aspect ratio",
+    "vertical center"
+  ],
+  "threshold": 0.32,
+  "test": {
+    "tp": 590,
+    "fp": 80,
+    "fn": 131,
+    "f1": 0.8483105679367362
+  },
+  "test_candidates": 5445,
+  "correlations": {
+    "confidence": 0.8319287183542389,
+    "relative area": 0.2730819338908834,
+    "log aspect ratio": -0.01626148326059676,
+    "vertical center": 0.047838259399108234
+  }
+}

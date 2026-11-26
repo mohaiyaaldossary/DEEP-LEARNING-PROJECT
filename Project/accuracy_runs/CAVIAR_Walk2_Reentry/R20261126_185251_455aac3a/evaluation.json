@@ -1,0 +1,55 @@
+{
+  "scope": "CAVIAR_Walk2_Reentry.mp4; publisher boxes rotated 90 degrees clockwise; source start frame 80.",
+  "annotation_sha256": "56392c137a48482d25a4bbe144aa8297547367b03c5afc0bedc73c9d1bbe9326",
+  "frames": 145,
+  "person_instances": 435,
+  "ground_truth_events": [
+    {
+      "person_id": 3,
+      "frame": 27,
+      "time": 1.08,
+      "event_type": "entry"
+    },
+    {
+      "person_id": 3,
+      "frame": 98,
+      "time": 3.92,
+      "event_type": "entry"
+    }
+  ],
+  "predicted_events": [
+    {
+      "time": 1.12,
+      "event_type": "entry",
+      "track_id": 1,
+      "person_id": 3
+    },
+    {
+      "time": 3.92,
+      "event_type": "entry",
+      "track_id": 1,
+      "person_id": 3
+    }
+  ],
+  "detection": {
+    "tp": 128,
+    "fp": 0,
+    "fn": 307,
+    "precision": 1.0,
+    "recall": 0.2942528735632184
+  },
+  "events": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tolerance_seconds": 0.5,
+    "signed_delays_seconds": [
+      0.040000000000000036,
+      0.0
+    ]
+  },
+  "matched_identity_switches": 0,
+  "tracking_note": "Switch count follows consecutive successful matches per GT identity, including gaps; not standardized MOTA/IDF1."
+}

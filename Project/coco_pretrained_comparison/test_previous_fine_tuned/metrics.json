@@ -1,0 +1,66 @@
+{
+  "dataset": "COCO train2017 project split",
+  "split": "test",
+  "manifest_sha256": "18f3d3a1d022c79964bd44bb7d82667211a7f39d1bf46c2c420fafd54518cd63",
+  "images": 240,
+  "category": "person",
+  "ground_truth_non_crowd": 763,
+  "weights_sha256": "4a9e1877fd1ce0f3e73c622e8a6f816813ac4c9ae666a783946b49c518ded636",
+  "mAP_50_95": 0.06927117885068189,
+  "mAP_50": 0.1748321924690528,
+  "image_size": 320,
+  "ap_score_floor": 0.001,
+  "nms_iou": 0.7,
+  "max_detections_per_image": 100,
+  "precision_recall_iou": 0.5,
+  "device": "cpu",
+  "ultralytics_version": "8.4.219",
+  "pycocotools_version": "2.0.11",
+  "operating_points": [
+    {
+      "confidence": 0.07,
+      "precision": 0.24900662251655628,
+      "recall": 0.24639580602883354,
+      "f2": 0.2469135802469136,
+      "true_positives": 188,
+      "false_positives": 567,
+      "false_negatives": 575
+    },
+    {
+      "confidence": 0.09,
+      "precision": 0.30694980694980695,
+      "recall": 0.20838794233289645,
+      "f2": 0.22268907563025206,
+      "true_positives": 159,
+      "false_positives": 359,
+      "false_negatives": 604
+    },
+    {
+      "confidence": 0.2,
+      "precision": 0.5231788079470199,
+      "recall": 0.10353866317169069,
+      "f2": 0.12332188573212613,
+      "true_positives": 79,
+      "false_positives": 72,
+      "false_negatives": 684
+    },
+    {
+      "confidence": 0.29,
+      "precision": 0.6527777777777778,
+      "recall": 0.061598951507208385,
+      "f2": 0.07522407170294494,
+      "true_positives": 47,
+      "false_positives": 25,
+      "false_negatives": 716
+    },
+    {
+      "confidence": 0.3,
+      "precision": 0.6818181818181818,
+      "recall": 0.05897771952817824,
+      "f2": 0.07216164207825528,
+      "true_positives": 45,
+      "false_positives": 21,
+      "false_negatives": 718
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "rule": "Select among fine-tuned run best.pt checkpoints by maximum validation F1, breaking ties by validation mAP50-95. Each run best.pt was selected by its validation detection fitness.",
+  "winner": {
+    "training_run": "yolo11n_pretrained_preserved_head",
+    "validation_directory": "validation_yolo11n_pretrained_preserved_head",
+    "weight_sha256": "408e2fa3be18e261bdcee291f4877e6266ef6099fb4e49d71bdc6d90711953be",
+    "mAP_50_95": 0.39095224262927575,
+    "mAP_50": 0.6173300221035072,
+    "best_f1": 0.6263237518910741,
+    "confidence": 0.29,
+    "precision": 0.80859375,
+    "recall": 0.5111111111111111
+  },
+  "candidates": [
+    {
+      "training_run": "yolo11n_pretrained_coco_320",
+      "validation_directory": "validation_yolo11n_pretrained_coco_320",
+      "weight_sha256": "d4aa70537ca6d62f110e0b3020c4876ea2ea7802679178489ccc631edbedf438",
+      "mAP_50_95": 0.2181246574752578,
+      "mAP_50": 0.4434081933522892,
+      "best_f1": 0.4694307800421645,
+      "confidence": 0.27,
+      "precision": 0.5448613376835236,
+      "recall": 0.4123456790123457
+    },
+    {
+      "training_run": "yolo11n_pretrained_preserved_head",
+      "validation_directory": "validation_yolo11n_pretrained_preserved_head",
+      "weight_sha256": "408e2fa3be18e261bdcee291f4877e6266ef6099fb4e49d71bdc6d90711953be",
+      "mAP_50_95": 0.39095224262927575,
+      "mAP_50": 0.6173300221035072,
+      "best_f1": 0.6263237518910741,
+      "confidence": 0.29,
+      "precision": 0.80859375,
+      "recall": 0.5111111111111111
+    }
+  ]
+}

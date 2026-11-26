@@ -1,0 +1,19 @@
+{
+  "map50_95": 0.4157110361782799,
+  "map50": 0.6208544375100824,
+  "ground_truth": 763,
+  "model": "yolo_original_320",
+  "split": "test",
+  "images": 240,
+  "mean_inference_seconds": 0.008790819056207416,
+  "image_size": 320,
+  "chosen": {
+    "confidence": 0.17,
+    "precision": 0.7710622710622711,
+    "recall": 0.5517693315858454,
+    "f1": 0.6432391138273491,
+    "tp": 421,
+    "fp": 125,
+    "fn": 342
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "file": "CAVIAR_Walk2_Reentry.mp4",
+  "fps": 25.0,
+  "w": 288,
+  "h": 384,
+  "frames": 145,
+  "model": "yolo11m.pt",
+  "conf": 0.3,
+  "imgsz": 640,
+  "device": "cpu",
+  "tracker": "bytetrack.yaml",
+  "exit_confirm": 15,
+  "track_ttl": 90,
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7"
+}

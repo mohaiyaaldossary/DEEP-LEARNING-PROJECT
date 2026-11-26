@@ -1,0 +1,14 @@
+test_boundary_is_inside (test_evaluation.EvaluationTest.test_boundary_is_inside) ... ok
+test_empty_and_disjoint (test_evaluation.EvaluationTest.test_empty_and_disjoint) ... ok
+test_nan_rejected (test_evaluation.EvaluationTest.test_nan_rejected) ... ok
+test_one_to_one_maximum_cardinality (test_evaluation.EvaluationTest.test_one_to_one_maximum_cardinality) ... ok
+test_boundary_flicker (test_zone_state.EventsTest.test_boundary_flicker) ... ok
+test_entry_stay_exit_reentry (test_zone_state.EventsTest.test_entry_stay_exit_reentry) ... ok
+test_initial_multiple_and_expiry (test_zone_state.EventsTest.test_initial_multiple_and_expiry) ... ok
+test_missing_is_not_exit_or_permanent_warning (test_zone_state.EventsTest.test_missing_is_not_exit_or_permanent_warning) ... ok
+test_polygons (test_zone_state.EventsTest.test_polygons) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK

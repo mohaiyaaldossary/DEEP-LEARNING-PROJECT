@@ -1,0 +1,8 @@
+Source: Walk3.mpg, EC Funded CAVIAR project / IST 2001 37540.
+Dataset and terms: https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/
+Video: https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/Walk3/Walk3.mpg
+Annotations: https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/Walk3/wk3gt.xml
+Transform: Decode complete source in presentation order, rotate 90 degrees clockwise, encode MP4 at 25 FPS and 288 by 384. 1380 frames decoded; source metadata advertises 1386. Evaluate the decoded clip only.
+CAVIAR source and derivative video retain Creative Commons BY-SA attribution and share-alike terms.
+Zone: unchanged coordinates from development Walk2 clip; same camera view.
+Frozen evaluation: yolo11m.pt, image size 640, confidence 0.30, ByteTrack, exit confirmation 15 frames, event tolerance 0.5 seconds.

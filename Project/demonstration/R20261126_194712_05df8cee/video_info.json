@@ -1,0 +1,16 @@
+{
+  "file": "CAVIAR_Walk2_Reentry.mp4",
+  "fps": 25.0,
+  "w": 288,
+  "h": 384,
+  "frames": 145,
+  "model": "C:\\Users\\ezio9\\Documents\\Codex\\2026-11-26\\th\\outputs\\Group2\\Project\\yolo11m.pt",
+  "conf": 0.3,
+  "imgsz": 640,
+  "device": "cpu",
+  "tracker": "bytetrack.yaml",
+  "exit_confirm": 15,
+  "track_ttl": 90,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.13.9"
+}

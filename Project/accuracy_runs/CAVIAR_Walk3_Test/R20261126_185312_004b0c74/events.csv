@@ -1,0 +1,4 @@
+Run ID,Event ID,Video filename,Elapsed video time,Track ID,Zone label,Event type,Screenshot path,Frame,Time seconds
+R20261126_185312_004b0c74,E001,CAVIAR_Walk3_Test.mp4,00:02.6,1,Zone A,entry,E001.jpg,65,2.600000
+R20261126_185312_004b0c74,E002,CAVIAR_Walk3_Test.mp4,00:06.4,1,Zone A,entry,E002.jpg,161,6.440000
+R20261126_185312_004b0c74,E003,CAVIAR_Walk3_Test.mp4,00:10.2,3,Zone A,entry,E003.jpg,254,10.160000

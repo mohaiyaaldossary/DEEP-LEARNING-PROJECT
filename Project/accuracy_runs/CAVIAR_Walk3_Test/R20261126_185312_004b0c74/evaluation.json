@@ -1,0 +1,68 @@
+{
+  "scope": "CAVIAR_Walk3_Test.mp4; publisher boxes rotated 90 degrees clockwise; source start frame 0.",
+  "annotation_sha256": "1f7baa1101e0e084d37d4b02457b1a4951647bad423cb78ca74e38b1fff90f9b",
+  "frames": 1380,
+  "person_instances": 1039,
+  "ground_truth_events": [
+    {
+      "person_id": 0,
+      "frame": 64,
+      "time": 2.56,
+      "event_type": "entry"
+    },
+    {
+      "person_id": 0,
+      "frame": 161,
+      "time": 6.44,
+      "event_type": "entry"
+    },
+    {
+      "person_id": 4,
+      "frame": 248,
+      "time": 9.92,
+      "event_type": "entry"
+    }
+  ],
+  "predicted_events": [
+    {
+      "time": 2.6,
+      "event_type": "entry",
+      "track_id": 1,
+      "person_id": 0
+    },
+    {
+      "time": 6.44,
+      "event_type": "entry",
+      "track_id": 1,
+      "person_id": 0
+    },
+    {
+      "time": 10.16,
+      "event_type": "entry",
+      "track_id": 3,
+      "person_id": 4
+    }
+  ],
+  "detection": {
+    "tp": 413,
+    "fp": 0,
+    "fn": 626,
+    "precision": 1.0,
+    "recall": 0.397497593840231
+  },
+  "events": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tolerance_seconds": 0.5,
+    "signed_delays_seconds": [
+      0.040000000000000036,
+      0.0,
+      0.2400000000000002
+    ]
+  },
+  "matched_identity_switches": 0,
+  "tracking_note": "Switch count follows consecutive successful matches per GT identity, including gaps; not standardized MOTA/IDF1."
+}

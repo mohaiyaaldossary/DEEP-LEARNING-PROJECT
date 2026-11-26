@@ -1,0 +1,7 @@
+Dataset: the unchanged COCO train2017 project subset with 1,920 train, 240 validation and 240 project test images.
+Both candidates started from the original yolo11n.pt. Candidate 1 trained a one-class head for four epochs. Candidate 2 preserved the original 80-class head, froze layers 0 through 22 and fine-tuned for two epochs at learning rate 0.0001. Only person boxes were labeled in project training.
+Candidate 2 was selected by the highest F1 measured on the 240 validation images. Its final weights are training_runs/yolo11n_pretrained_preserved_head/weights/best.pt. All models were evaluated for the person class only at 320 pixels.
+Comparison includes confidence 0.30 for all models, confidence 0.07 for project context, and each model's F1-optimal confidence selected on validation. Precision and recall use IoU 0.50.
+The project test images were held out from project training and selection. They come from COCO train2017, the upstream pretraining data source, so the test is not independent of the pretrained checkpoint. The 5,000 official val2017 images were excluded from this project training and selection. Ultralytics uses that split for upstream validation.
+Ultralytics YOLO11: https://docs.ultralytics.com/models/yolo11/
+Ultralytics COCO splits: https://docs.ultralytics.com/datasets/detect/coco/

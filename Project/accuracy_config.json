@@ -1,0 +1,10 @@
+{
+  "model": "yolo11m.pt",
+  "conf": 0.3,
+  "imgsz": 640,
+  "device": "cpu",
+  "tracker": "bytetrack.yaml",
+  "exit_confirm": 15,
+  "track_ttl": 90,
+  "reason": "Highest validation F1 of ten measured configurations"
+}

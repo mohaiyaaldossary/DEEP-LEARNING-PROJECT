@@ -1,0 +1,5 @@
+Source: Walk2.mpg, EC Funded CAVIAR project / IST 2001 37540.
+Project: https://homepages.inf.ed.ac.uk/rbf/CAVIAR/
+Dataset and license (Creative Commons BY-SA): https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/
+Original video: https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/Walk2/Walk2.mpg
+Changes: Extracted frames 80-224 inclusive, rotated 90 degrees clockwise, and re-encoded as MP4 (288 x 384, 25 fps, 5.8 s). The resulting clip is shared under the same BY-SA terms.
