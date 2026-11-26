@@ -19,13 +19,15 @@ The study compared ten detector configurations on a person-detection subset of C
 
 On the separate Walk3 video, the monitor matched all three annotated zone entries and produced zero unmatched alerts. Across the full scene it recovered 39.75% of annotated person boxes. Both video clips came from the same camera, so these results describe that viewpoint.
 
+On all 1,380 Walk3 frames, the detector alone matched 420 of 1,039 annotated person appearances (40.42% recall). In a paired Windows replay, ByteTrack retained 409 matches (39.36%). Of the 630 missed appearances, 619 were already missing at the detector stage. Detector recall was 10.67% for boxes under 32 pixels tall and 68.67% for boxes at least 32 pixels tall. See Section 6.2.1 of the report for the comparison with the original Apple M3 run. [Frame-level audit](Verification/Walk3%20recall%20audit.csv) ? [Annotated examples](Verification/Walk3%20recall%20examples.jpg)
+
 ## Project materials
 
 | Material | Contents |
 | --- | --- |
 | [Report PDF](Final%20Report.pdf) | PDF edition of the study |
 | [Project](Project/) | Application code, model weights, dataset splits, videos, saved runs, and benchmark results |
-| [Verification](Verification/) | Recorded unit test results |
+| [Verification](Verification/) | Unit test results and Walk3 recall evidence |
 | [References](References.bib) | Bibliography |
 
 The CAVIAR footage is attributed to the EC Funded CAVIAR project, IST 2001 37540. See the [Walk2 source notes](Project/CAVIAR_Walk2_Reentry_source.txt) and [Walk3 source notes](Project/CAVIAR_Walk3_Test_source.txt) for attribution, transformations, and license details.
